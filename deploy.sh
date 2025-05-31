@@ -2,7 +2,7 @@
 cd "$(dirname "$0")" || exit 1
 
 git checkout -b gh-pages
-pnpm run build
+bun run build
 mv dist docs
 git add -f docs
 git commit -m "Generate pages: $(date '+%Y-%m-%dT%H:%M:%S%z')"
