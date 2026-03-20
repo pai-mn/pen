@@ -1,6 +1,6 @@
 # Pen
 
-- https://alchem-x.github.io/pen/
+- https://pai-mn.github.io/pen/
 
 ## 使用
 
