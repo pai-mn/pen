@@ -10,6 +10,7 @@ export const LANGUAGE_TYPE = {
   XML: 'xml',
   JAVA: 'java',
   C: 'c',
+  TOML: 'toml',
 }
 
 const languageLabel = {
@@ -22,6 +23,7 @@ const languageLabel = {
   [LANGUAGE_TYPE.XML]: 'XML',
   [LANGUAGE_TYPE.JAVA]: 'Java',
   [LANGUAGE_TYPE.C]: 'C',
+  [LANGUAGE_TYPE.TOML]: 'TOML',
   [LANGUAGE_TYPE.MARKDOWN]: 'Markdown',
   [LANGUAGE_TYPE.PLAINTEXT]: '纯文本',
 }
